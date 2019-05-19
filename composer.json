@@ -1,0 +1,31 @@
+{
+    "name": "sevenpluss/laravel-twitch-api",
+    "description": "The Laravel wrapper for twitch helix api",
+    "keywords": ["php", "Twitch", "Api", "Helix", "Laravel"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vlad Radchenko",
+            "email": "westen7ua@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.1.3",
+        "sevenpluss/twitch-api": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sevenpluss\\LaravelTwitchApi\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sevenpluss\\LaravelTwitchApi\\Providers\\TwitchServiceProvider"
+            ]
+        }
+    }
+}
