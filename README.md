@@ -6,8 +6,6 @@
 
 [PHP Twitch Api](https://github.com/sevenpluss/twitch-api) Wrapper for Laravel 5+
 
-[Demo Link](https://herokutop.com) with few api elements.
-
 **NOTICE: This library uses the latest Twitch HELIX API which ist not fully featured yet**
 
 ## Table of contents
